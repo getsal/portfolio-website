@@ -1,7 +1,167 @@
+/*
+Colors used:
+Base Color (Dark Blue): #10375f;
+Primary Color (Indigo): #2652a3;
+Secondary Color (Light Blue): #1da3d5;
+Tertiary Color #769aad;
+Link color #aecfe0;
+
+*/
+
+
 header {
   background-color: #ff44c4;
   padding: 10px;
   margin: 10px;
+  border-bottom: 3px solid #ffffff;
 }
 
-border-bottom: 3px solid #4a4a4a;
+
+
+Main {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #10375f;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+Header {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #10375f;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+Footer {
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #10375f;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.4;
+}
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
+
+
+a {
+  color: #aecfe0;
+  text-decoration: none;
+}
+a:hover {
+  color: #aecfe0;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #769aad;
+}
+a:active {
+  color: #769aad;
+}
+
+.button.mail {
+  background-color: transparent;
+  color: #aecfe0 !important;
+  text-transform: uppercase;
+  border: 2px solid #aecfe0;
+}
+.button.mail:hover {
+  background-color: #aecfe0;
+  color: #ffffff !important;
+}
+
+.button.readmore {
+  background-color: transparent;
+  color: #aecfe0 !important;
+  text-transform: uppercase;
+  border: 2px solid #aecfe0;
+}
+.button.readmore:hover {
+  background-color: #aecfe0;
+  color: #ffffff !important;
+}
+
+.button.myCV {
+  background-color: transparent;
+  color: #aecfe0 !important;
+  text-transform: uppercase;
+  border: 2px solid #aecfe0;
+}
+.button.myCV:hover {
+  background-color: #aecfe0;
+  color: #ffffff !important;
+}
+
+
+img {
+  width: 100%;
+}
