@@ -225,6 +225,10 @@ a:active {
   color: #ffffff !important;
 }
 
+.social.media {
+  display: inline-block;
+}
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
