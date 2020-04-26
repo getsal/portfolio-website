@@ -51,6 +51,7 @@ nav > ul > li > a:active {
 
 .logo {
   max-width: 250px;
+
 }
 .selector {
   margin: 0 auto; /* No spacing to top and bottom and auto spacing to left and right */
@@ -59,9 +60,6 @@ nav > ul > li > a:active {
 width: 1200px;
 
 
-}
-.container {
-  max-width: 1200px;
 }
 * {
   box-sizing: border-box;
@@ -192,6 +190,23 @@ a:active {
   color: #769aad;
 }
 
+.button {
+  display: inline-block;
+  background-color: #aecfe0;
+  color: white !important;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #769aad;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+.button:hover {
+  opacity: 0.6;
+    text-decoration: none;
+}
+
 .button.mail {
   background-color: transparent;
   color: #aecfe0 !important;
@@ -229,6 +244,50 @@ a:active {
   display: inline-block;
 }
 
+/*SVG Animation */
+
+@keyframes color-change {
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+@keyframes color-change {
+  from {fill: #edc655;}
+  to {fill: #f76414;}
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+
+
+.cloud-front {
+  animation-duration: 30s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+.sun {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -273,6 +332,14 @@ nav {
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  
+.col-lg-7 {
+  width: 60%;
+}
+
+.col-lg-5 {
+  width: 40%;
+}
 }
 /* ==============================
 X-large devices (1440px or larger)
