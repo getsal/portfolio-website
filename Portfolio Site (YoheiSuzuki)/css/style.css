@@ -51,14 +51,15 @@ text-align: right;
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  /*border-top: 1px solid rgba(255,127,80,0.5);*/
 }
-
+/*
 .navtoggle.responsive ul  {
 
   height: 300px;
   width: 100px
 }
+*/
 .navtoggle.responsive li:last-child  {
   padding: 0 0 10px;
 }
@@ -126,6 +127,8 @@ width: 1200px;
   display: inline-block;
   width: 100%;
 }
+
+
 Main {
   background-color: #ffffff;
   font-family: 'Montserrat', sans-serif;
@@ -192,21 +195,21 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 2.75em;
-  font-weight: 700;
-}
-
-h2 {
   font-size: 2.25em;
   font-weight: 700;
 }
 
-h3 {
+h2 {
   font-size: 1.75em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.35em;
   font-weight: 400;
 }
 h4 {
-  font-size: 1.35em;
+  font-size: 1.00em;
   font-weight: 400;
 }
 
@@ -325,6 +328,9 @@ a:active {
   animation-direction: alternate;
   animation-timing-function: linear;
 }
+
+
+
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
