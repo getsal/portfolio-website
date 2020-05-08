@@ -3,7 +3,7 @@ Colors used:
 Background: #dcdee0 (to understanding boxes easy)
 Base Color (Dark Blue): #10375f;
 Primary Color (Indigo): #2652a3;
-Secondary Color (Light Blue): #1da3d5;
+Secondary Color (Light Blue): #167FA6;
 Tertiary Color #769aad;
 Link color #aecfe0;
 
@@ -34,6 +34,8 @@ text-align: center;
 img {
   width: 100%;
 }
+
+
 
 .navtoggle.responsive {
   position: relative;
@@ -138,49 +140,7 @@ Main {
   color: #10375f;
 }
 
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-h1 {
-  font-size: 2.75em;
-  font-weight: 700;
-}
 
-h2 {
-  font-size: 2.25em;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 1.75em;
-  font-weight: 400;
-}
-h4 {
-  font-size: 1.35em;
-  font-weight: 400;
-}
-
-h1, h2, h3, h4 {
-  line-height: 1.4;
-}
-h1 {
-  font-size: 2.75em;
-  font-weight: 700;
-}
-
-h2 {
-  font-size: 2.25em;
-  font-weight: 700;
-}
-
-h3 {
-  font-size: 1.75em;
-  font-weight: 400;
-}
-h4 {
-  font-size: 1.35em;
-  font-weight: 400;
-}
 
 Footer {
   background-color: #ffffff;
@@ -282,6 +242,10 @@ a:active {
 
 .social.media {
   display: inline-block;
+  width: 80px;
+  height: 80px;
+
+
 }
 
 /*SVG Animation */
