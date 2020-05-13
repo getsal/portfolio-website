@@ -211,8 +211,7 @@ a:active {
 }
 
 .button.mail {
-  background-color: transparent;
-  color: #1da3d5 !important;
+
   text-transform: uppercase;
   border: 2px solid #1da3d5;
 }
@@ -233,8 +232,7 @@ a:active {
 }
 
 .button.myCV {
-  background-color: transparent;
-  color: #1da3d5 !important;
+
   text-transform: uppercase;
   border: 2px solid #1da3d5;
 }
