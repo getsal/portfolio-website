@@ -31,11 +31,14 @@ text-align: center;
 
 }
 
-img {
+ img{
   width: 100%;
 }
 
+.profilefoto{
+width: 50%
 
+}
 
 .navtoggle.responsive {
   position: relative;
@@ -328,14 +331,21 @@ nav > ul {
 
 }
 
+.profilefoto{
+width: 50%
+
+}
+
 
 .col-md-6 {
   width: 50%;
 }
 [class*="col-"] {
-  float: left;
+  float: right;
 }
-
+.col-lg-5 {
+  display: contents;
+}
 .row::after {
   content: "";
   clear: both;
@@ -343,12 +353,12 @@ nav > ul {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
 .navtoggle li:not(:last-child) {
-  display: inline-block;
+display: initial;
 }
 
 .navtoggle li:last-child {
@@ -369,7 +379,12 @@ Large devices (1024px or larger)
 .col-lg-5 {
   width: 40%;
 }
+.profilefoto{
+width: 50%
+
 }
+}
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */
