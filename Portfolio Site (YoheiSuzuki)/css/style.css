@@ -5,7 +5,7 @@ Base Color (Dark Blue): #10375f;
 Primary Color (Indigo): #2652a3;
 Secondary Color (Light Blue): #167FA6;
 Tertiary Color #769aad;
-Link color #aecfe0;
+Link color #1da3d5;
 
 */
 
@@ -90,7 +90,7 @@ nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #aecfe0;
+  color: #1da3d5;
 }
 
 nav > ul > li > a:hover {
@@ -175,11 +175,11 @@ h4 {
 
 
 a {
-  color: #aecfe0;
+  color: #1da3d5;
   text-decoration: none;
 }
 a:hover {
-  color: #aecfe0;
+  color: #1da3d5;
   text-decoration: underline;
 }
 
@@ -192,7 +192,7 @@ a:active {
 
 .button {
   display: inline-block;
-  background-color: #aecfe0;
+  background-color: #1da3d5;
   color: white !important;
   font-weight: 400;
   text-decoration: none;
@@ -209,34 +209,34 @@ a:active {
 
 .button.mail {
   background-color: transparent;
-  color: #aecfe0 !important;
+  color: #1da3d5 !important;
   text-transform: uppercase;
-  border: 2px solid #aecfe0;
+  border: 2px solid #1da3d5;
 }
 .button.mail:hover {
-  background-color: #aecfe0;
+  background-color: #1da3d5;
   color: #ffffff !important;
 }
 
 .button.readmore {
   background-color: transparent;
-  color: #aecfe0 !important;
+  color: #1da3d5 !important;
   text-transform: uppercase;
-  border: 2px solid #aecfe0;
+  border: 2px solid #1da3d5;
 }
 .button.readmore:hover {
-  background-color: #aecfe0;
+  background-color: #1da3d5;
   color: #ffffff !important;
 }
 
 .button.myCV {
   background-color: transparent;
-  color: #aecfe0 !important;
+  color: #1da3d5 !important;
   text-transform: uppercase;
-  border: 2px solid #aecfe0;
+  border: 2px solid #1da3d5;
 }
 .button.myCV:hover {
-  background-color: #aecfe0;
+  background-color: #1da3d5;
   color: #ffffff !important;
 }
 
